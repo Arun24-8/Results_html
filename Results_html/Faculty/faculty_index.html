@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    a{    
+      text-decoration: none;
+      color: black;
+      text-align: center;
+    }
+
+    a:hover img{
+      width: 150px;
+      height: 150px;
+      transform: scale(1);
+      border: 2px solid rgb(58, 54, 54);
+      place-items: center;
+      border-radius: 60px;
+      box-shadow: 1px 10px 10px rgba(0, 0, 0.15);
+      background: radial-gradient(#5E936C,#DEE791);
+      gap: 50px;
+    }
+
+  </style>
 </head>
 <body>
-  <h1>Faculty Dashboard</h1>
-  
+    <h1 style="text-align: center; margin-top: 40px;">Faculty Dashboard</h1>
+
+  <div style="display: grid;
+              grid-template-columns: repeat(3, 300px);
+              justify-content: center;">
+        <a href="post_marks.html"><img src="Faculty_media/marks.jpg" width="100" height="100"><h2>Post Marks</h2></a>
+        <a href="view_courses.html"><img src="Faculty_media/courses.jpeg" width="100" height="100"><h2>Course</h2></a>
+        <a href="view_report.html"><img src="Faculty_media/reports.jpeg" width="100" height="100"><h2>Reports</h2></a>
+        <a href="profile.html"><img src="Faculty_media/profile.jpeg" width="100" height="100"><h2>Profile</h2></a>
+        <a href="view_result.html"><img src="Faculty_media/result.png" width="100" height="100"><h2>Result</h2></a>
+        <a href="view_student.html"><img src="Faculty_media/view student.png" width="100" height="100"><h2 >View Student</h2></a>
+  </div>
 </body>
 </html>

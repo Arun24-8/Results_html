@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(to right, #A2AF9B, #F3E2D4);
+  border: 5px solid #FFA725;
+  padding: 0px;
+  margin: 0;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.admin {
+  text-align: center;
+  color: #113F67;
+  text-shadow: 1px 1px 2px #10a24b;
+  background: linear-gradient(to left, #748873, #FAF7F3);
+  border-radius: 100px;
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.admin1 {
+  text-align: center;
+  color: #113F67;
+  text-shadow: 1px 1px 2px #10a24b;
+  background: linear-gradient(to left, #748873, #FAF7F3);
+  border-radius: 100px;
+  width: 30%;
+  margin: 10px auto;
+  padding: 15px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #0e0e0e;
+  transition: transform 0.3s ease;
+}
+
+.admin1:hover {
+  border: 3px solid rgb(67, 64, 225);
+  transform: scale(1.2);
+}
+
+.admin-img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #FE5D26;
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.admin-img:hover {
+  border: 3px solid rgb(67, 64, 225);
+  background: radial-gradient(#5E936C, #DEE791);
+  transform: scale(1.1);
+}
+
+.admin-card {
+  font-size: medium;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px dashed #537D5D;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  margin: 40px auto;
+}
+
+.admin-card:hover {
+  border: 3px solid fuchsia;
+  background: radial-gradient(#5E936C, #DEE791);
+  transform: scale(1.02);
+}
+
+.list-style {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.list-style li {
+  background: radial-gradient(#ea6fa6, #fffefd);
+  color: #fc0404;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.list-style li::before {
+  content: '✓ ';
+  color: #141313;
+  background-color: #10a24b;
+  border-radius: 30%;
+  padding:5px;
+  margin-right: 5px;
+}
+
+.list-style li:hover {
+  border: 2px solid #03A6A1;
+  transform: scale(1.2);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,85 @@
+body{
+  background: linear-gradient(90deg, #93DA97 , #FFA500 );
+  border: 5px dotted #3b0ea2;
+  padding: 65px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+.student
+{
+  text-align: center;
+  color: #113F67;
+  text-shadow: #10a24b;
+  font-family: 'Lucida Sans';
+  background: linear-gradient(to left,#748873,#FAF7F3);
+  block-size: 30px;
+  border-block-end: #0f05d8;
+  border-color:#722323 ;
+  cursor: pointer;
+  border-radius: 100px; 
+  width: 30%;                         
+  margin: 20px ;                   
+  padding: 20px; 
+  margin-left: 50px;
+  box-shadow: 5px 10px 30px rgb(0, 0, 0.15);
+}
+
+.student-img
+{
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  text-shadow: #3b0ea2;
+  color: #FFA500;
+  align-items: center;
+  border: 5px solid #aa3f1b;
+  display: flex;
+  box-shadow: 0px 10px 15px rgb(0, 0, 0.15);
+  margin-left: 0px;
+}
+
+.details
+{
+  font-size: larger;
+  font-family:  monospace;
+  max-width: 500px;
+  margin-left: 200px;
+}
+
+.student-details
+{
+   text-align: center;
+  text-shadow: #78B9B5;
+  background: linear-gradient(to right,#FFF085,#FF9149);
+  font-size: x-large;
+  block-size: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+  width: 230px;
+  margin: 21px;
+  padding: 10px;
+  box-shadow: 5px 10px 15px rgb(0, 0, 0.15);
+  margin-left: 100px;
+}
+
+.total
+{
+  border: 5px solid #7B4019;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  font: 30px;
+  font-family: Courier;
+  border-radius: 10px;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  max-height: 900px;
+  background-color: rgb(238, 205, 205);
+  box-shadow: 5px 10px 30px rgb(0, 0, 0.15);
+  margin-left: 50px;
+}

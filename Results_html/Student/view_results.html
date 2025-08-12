@@ -1,49 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Results</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results</title>
+<link rel="stylesheet" href="student_index.html">
+<style>
+body 
+{ 
+  font-family: Arial, sans-serif; 
+  background: #f4f6f9; 
+  margin: 0; 
+}
+header 
+{ 
+  background: #34495e; 
+  color: white; 
+  padding: 15px; 
+  text-align: center; 
+}
+.container 
+{ 
+  padding: 20px; 
+}
+.tabs 
+{ 
+  display: flex; 
+  gap: 10px; 
+  margin-bottom: 20px; 
+}
+.tab 
+{ 
+  background: #2ecc71; 
+  padding: 10px; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 4px; 
+}
+form 
+{ 
+  background: white; 
+  padding: 15px; 
+  border-radius: 8px; 
+  margin-bottom: 20px; 
+}
+form input, form select 
+{ 
+  width: 100%; 
+  padding: 8px; 
+  margin: 5px 0; 
+}
+table 
+{ 
+  width: 100%; 
+  border-collapse: collapse; 
+  background: white; 
+}
+th, td 
+{ 
+  padding: 12px; 
+  border-bottom: 1px solid #ddd; 
+}
+th 
+{ 
+  background: #2ecc71; 
+  color: white; 
+}
+</style>
 </head>
 <body>
-  <center>
-    <h1><b>My Results</b></h1>
-    <table>
-      <tr>
-        <td>
-          <ul>
-            <li><b>Name:</b>Arun Kumar</li>
-            <li><b>Roll No:</b>2400032926</li>
-            <li><b>Batch:</b>2024</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <table border="1" cellspacing="0">
-      <tr>
-        <th colspan="4">
-          <h1>Result Details</h1>
-        </th>
-        <tr>
-          <td><b>Course</b></td>
-          <td><b>Marks</b></td>
-          <td><b>Grade</b></td>
-          <td><b>Status</b></td>
-        </tr>
-        <tr>
-          <td>Data Algorithms</td>
-          <td>95</td>
-          <td>A+</td>
-          <td>Pass</td>
-        </tr>
-        <tr>
-          <td>Front End</td>
-          <td>93</td>
-          <td>A+</td>
-          <td>Pass</td>
-        </tr>
-      </tr>
-    </table>
-  </center>
+<header><h1>Results</h1></header>
+<div class="container">
+    <div class="tabs">
+        <a href="#insert" class="tab">Insert Results</a>
+        <a href="#view" class="tab">View Results</a>
+    </div>
+    <div id="insert">
+        <form>
+           <select>
+             <option value="">Select Course</option>
+             <option value="1">Front End</option>
+             <option value="2">OS</option>
+             <option value="3">DBMS</option>
+           </select>
+            <select required><option>Student</option></select>
+            
+            <input type="number" placeholder="Internal">
+            <input type="number" placeholder="External">
+            <input type="text" placeholder="Remarks">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    </div>
+</div>
 </body>
 </html>

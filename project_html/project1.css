@@ -1,0 +1,55 @@
+body{
+  padding: auto;
+  margin: auto;
+}
+
+.first,
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+}
+.cloud,
+.ai,
+.Cybersecurity,
+.smart,
+.iot {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+}
+.cloud img,
+.ai img,
+.Cybersecurity img,
+.smart img,
+.iot img {
+  width: 120px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+.cloud:hover,
+.ai:hover,
+.Cybersecurity:hover,
+.smart:hover,
+.iot:hover {
+  border: 3px solid ;
+  transform: scale(1.05);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

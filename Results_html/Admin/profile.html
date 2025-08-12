@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Admin Profile</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link rel="stylesheet" href="admin_index.html">
 </head>
 <body>
-   <center>
-  
+  <div class="admin-card">
     <table>
       <tr>
-        <td><h1><b>Admin Profile</b></h1></td>
+        <td colspan="2">
+          <h1 class="admin"><b>Admin Profile</b></h1>
+        </td>
       </tr>
       <tr>
-        <td><img src="Admin_media/profile.jpeg" width="150" height="150" alt="Admin Profile"></a></td>
-        <td>Welcome to your admin dashboard <br>Manage users, results,and <br>announcements here</td>
-      </tr>
-      <tr>
+        <td><img src="Admin_media/profile.jpeg" class="admin-img" alt="Admin Profile" /></td>
         <td>
-          <ul>
-           <li>Manage Users</li>
-           <li>Post Announcements</li>
-           <li>View Logs</li>
-          </ul>
-       </td>
+          <h2 style="text-align: left;">
+            Welcome to your admin dashboard <br />
+            Manage users, results, and <br />
+            announcements here
+          </h2>
+        </td>
       </tr>
       <tr>
-        <td><hr></td>
-        <td><hr></td>
+        <td colspan="2">
+          <ul class="list-style">
+            <li>Manage Users</li>
+            <li>Post Announcements</li>
+            <li>View Logs</li>
+          </ul>
+        </td>
       </tr>
     </table>
-    <h2>Admin Details</h2>
-     <table border="1">
-           <tr>
-            <td><b>Name</b></td>
-            <td>Email</td>
-           </tr>
-           <tr>
-            <td>Ravi</td>
-            <td>admin@univ.edu</td>
-           </tr>
-           <tr>
-            <td>
-              Role
-            </td>
-            <td>Administrator</td>
-           </tr>
+
+    <h2 class="admin1">Admin Details</h2>
+    <table>
+      <tr>
+        <td><b>Name</b></td>
+        <td>Email</td>
+      </tr>
+      <tr>
+        <td>Ravi</td>
+        <td>admin@univ.edu</td>
+      </tr>
+      <tr>
+        <td>Role</td>
+        <td>Administrator</td>
+      </tr>
     </table>
-   </center>
+  </div>
 </body>
 </html>
