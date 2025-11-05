@@ -1,0 +1,48 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  border: 10px solid black
+}
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  background-color: rgb(169, 144, 107);
+}
+.center ul li{
+  list-style: none;
+  display:inline-flex;
+  margin:0px 10px;
+}
+.right{
+  display:flex;
+  justify-content: space-between;
+  padding:0px 10px;
+}
+.bannerBox{
+  margin:10px 0px;
+}
+.collectionBox{
+  margin:10px 0px;
+}
+.bannerSection{
+  width:100%;
+}
+.cart{
+  margin: 0px 50px;
+}
+.menImages img{
+  width:250px;
+  height:300px;
+}
+.WomensImages{
+  display:inline-flex;
+}
+.WomensImages img{
+  width:250px;
+  height:300px;
+}
